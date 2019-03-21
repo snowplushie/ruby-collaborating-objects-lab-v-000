@@ -8,5 +8,5 @@ class Song
     @@all << self
   end
   
-  def artist()
+  def self.new_by_filename()
 end

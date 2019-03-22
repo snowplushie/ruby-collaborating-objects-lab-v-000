@@ -29,6 +29,6 @@ class Artist
   end
   
   def self.create_by_name(name)
-    self.new
+    self.new(name).tap {
     
 end
